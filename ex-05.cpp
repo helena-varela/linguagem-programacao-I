@@ -4,7 +4,6 @@
 using namespace std;
 
 void desempilharPorIndice(vector<int>& lista, int indice){
-    // indice = indice - 1;
     for (int i = 0; i < int(lista.size()); i++)
     {
         if(i == indice){
