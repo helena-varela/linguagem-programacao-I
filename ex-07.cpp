@@ -32,7 +32,8 @@ void tempoMedioCorredores(set<Corredores>& corredores){
     for (const auto& corredor : corredores) {
         somaTempos += corredor.tempoCorridaSegundos;
     }
-    cout << "\nO tempo médio dos corredores, em segundos, foi " << somaTempos << endl;
+    int tempoMedio =somaTempos / 3;
+    cout << "\nO tempo médio dos corredores, em segundos, foi " << tempoMedio << endl;
 }
 
 int main(){
@@ -58,6 +59,6 @@ int main(){
     }
 
     tempoMedioCorredores(corredores);
-    
+
     return 0;
 }
